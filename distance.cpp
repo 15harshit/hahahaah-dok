@@ -15,6 +15,6 @@ int main()
     printf("multiplication=%d\n", multiply);
     printf("division==%.2f\n",divide);
     printf("remainder=%d",modulo);
-    return 0
+    return 0;
 
 }
