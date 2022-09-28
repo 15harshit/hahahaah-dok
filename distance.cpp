@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    int a, b, add, subtract, multiply, modulo;
+    int x, y, add, subtract, multiply, modulo;
     float divide;
     printf("enter two integers\n");
-    scanf("%d%d", &a, &b);
-    add = a+b;
-    subtract=a-b;
-    multiply=a*b;
-    divide=a/(float)b;
-    modulo=a%b;
+    scanf("%d%d", &x, &y);
+    add = x+y;
+    subtract=x-y;
+    multiply=x*y;
+    divide=x/(float)y;
+    modulo=x%y;
     printf("sum = %d\n",add);
     printf("difference=%d\n",subtract);
     printf("multiplication=%d\n", multiply);
